@@ -1,0 +1,19 @@
+[project]
+name = "telegram-bot-shop"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "RomesAll",email = "romesky845@gmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "aiogram (>=3.31.0,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = ">=3.14,<3.15"
